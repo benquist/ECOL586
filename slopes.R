@@ -70,5 +70,6 @@ parameters[,3] <- B
 parameters[,4] <- sqrt(SIGB)
 x <- x + XAVG
 y <- y + YAVG
-return(x,y,correlation,parameters)
+#return(x,y,correlation,parameters)
+return(c(x,y,correlation,parameters))
 }
