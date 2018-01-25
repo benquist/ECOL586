@@ -8,7 +8,21 @@
 ## available in Isobe et al. 1990.
 #############################################################################################################
 
-slopes<-function(x,y) {
+# ##Examples of use of slopes.R 
+# > source("/Users/yourdirectorypath/slopes.R")
+# > slopes
+#  ## let's use the slopes.R functions on a dataset with your X and Y variables of interest
+# > btreg <- slopes(log10(dataset$X),log10(dataset$Y))
+# > btreg
+# > names(btreg)
+# ## let's extract out the parameters for the intercept (A) and the slope (B) for each of the regression models
+# > btreg$parameters
+# ## the correlation 
+# > btreg$correlation
+
+##########################################
+
+# slopes<-function(x,y) {
   #COMPUTE AVERAGES AND SUMS
   XAVG <- mean(x)
   YAVG <- mean(y)
