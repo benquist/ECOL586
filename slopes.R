@@ -1,5 +1,5 @@
 
-############################################################################################################
+#############################################################################################################
 ##  Slopes routine - Brian J. Enquist Jan 23 2018 with additions from Brian Maitner
 ##
 ## Originally written in S+ by Andrew P. Allen at the University of New Mexico, borrowing heavily from a 
@@ -22,7 +22,7 @@
 
 ##########################################
 
-# slopes<-function(x,y) {
+slopes<-function(x,y) {
   #COMPUTE AVERAGES AND SUMS
   XAVG <- mean(x)
   YAVG <- mean(y)
