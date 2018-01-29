@@ -6,6 +6,7 @@
 #  B.J. Enquist January 2018
 #########################################
 
+# Make sure to add your unique path directory here
 bigtrees.data <- read.csv(file="/Users/brianjenquist/GitHub/R/ECOL586_Biological_Scaling/bigtrees.csv",header=T)
 
 names(bigtrees.data)
