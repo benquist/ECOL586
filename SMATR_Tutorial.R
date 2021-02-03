@@ -1,7 +1,7 @@
 
 ############################################################### 
 # SMATR tutorial
-# Brian J. Enquist, Jan 2018
+# Brian J. Enquist, Jan 2018. Updated Jan 2021
 #
 # This turoial uses and builds on several references listed below using
 # the bigtrees dataset assessing the allometry of stem diameter 
