@@ -1,7 +1,7 @@
 
 ########################################
 #
-# ECOL 586 Big Trees analysis
+# ECOL 586 Introduction to Allometric Scaling: Big Trees analysis
 #
 #  B.J. Enquist January 2018, updated January 2021
 #########################################
