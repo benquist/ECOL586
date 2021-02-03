@@ -3,10 +3,12 @@
 #
 # ECOL 586 Big Trees analysis
 #
-#  B.J. Enquist January 2018
+#  B.J. Enquist January 2018, updated January 2021
 #########################################
 
+# A tutorial to explore the allometric scaling of tree size and dimensions as well as fit allometric scaling functions using different methods. 
 # Make sure to add your unique path directory here
+
 bigtrees.data <- read.csv(file="/Users/brianjenquist/GitHub/R/ECOL586_Biological_Scaling/bigtrees.csv",header=T)
 
 names(bigtrees.data)
